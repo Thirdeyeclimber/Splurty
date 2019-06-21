@@ -5,7 +5,65 @@
 	clear: both;
 }
 
-h1 {
-	border-bottom: dotted;
-	border-width: 18px
+.circle {
+	font-weight: bold;
+	font-style: italic;
+	position: relative;
+	border-radius: 100%;
+	background: #f84342;
+	border: 1px solid #f7f7f7;
+	width: 80px;
+	height: 80px;
+	margin: 10px 10px;
+	text-align: center;
+	color: #fff;
+	font-size: 10px;
+	line-height: 16px;
+	cursor: pointer;
+	transform: rotate(11deg); 
+	-ms-transform: rotate(11deg);	/* IE 9 */
+	-webkit-transform: rotate(11deg); /* Opera, Chrome, and Safari */
 }
+
+h1 {
+	border-bottom: solid;
+	text-align: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+h2 {
+	text-align: right;
+}
+
+.slogan {/* Helvetica/Arial-based sans serif stack */
+	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: italic;
+	padding-top: 26px;
+}
+
+.links {
+	padding-top: 26px;
+}
+
+.links a {
+	color: black;
+	font-size: 25px;
+	border: solid;
+	border-width: 2px;
+	border-radius: 5%;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: tan;
+}
+
+.header {
+	border-top: 9px solid #222222;
+}
+
+hr {
+	clear: both;
+}
+
+

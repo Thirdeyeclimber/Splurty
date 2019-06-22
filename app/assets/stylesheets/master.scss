@@ -1,4 +1,5 @@
 @import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower&display=swap');
 
 
 .clear {
@@ -6,6 +7,7 @@
 }
 
 .circle {
+	font-family: 'Indie Flower', cursive;
 	font-weight: bold;
 	font-style: italic;
 	position: relative;
@@ -17,7 +19,7 @@
 	margin: 10px 10px;
 	text-align: center;
 	color: #fff;
-	font-size: 10px;
+	font-size: 12px;
 	line-height: 16px;
 	cursor: pointer;
 	transform: rotate(11deg); 
@@ -26,6 +28,8 @@
 }
 
 h1 {
+	font-family: 'quicksandbold';
+	font-weight: bold;
 	border-bottom: solid;
 	text-align: center;
 	padding-left: 10px;
@@ -33,13 +37,16 @@ h1 {
 }
 
 h2 {
+	font-family: 'Indie Flower', cursive;
+	font-style: italic;
 	text-align: right;
 }
 
-.slogan {/* Helvetica/Arial-based sans serif stack */
-	font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-style: italic;
+.slogan {
 	padding-top: 26px;
+	font-family: 'Indie Flower', cursive;
+	font-style: italic;
+	font-size: 20px;
 }
 
 .links {
@@ -47,6 +54,7 @@ h2 {
 }
 
 .links a {
+	font-family: 'quicksandregular', bold;
 	color: black;
 	font-size: 25px;
 	border: solid;
@@ -55,7 +63,7 @@ h2 {
 	text-decoration: none;
 	padding-right: 5px;
 	padding-left: 5px;
-	background: tan;
+	background: grey;
 }
 
 .header {

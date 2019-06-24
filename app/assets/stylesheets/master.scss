@@ -19,7 +19,7 @@
 	margin: 10px 10px;
 	text-align: center;
 	color: #fff;
-	font-size: 12px;
+	font-size: 16px;
 	line-height: 16px;
 	cursor: pointer;
 	transform: rotate(11deg); 
@@ -72,6 +72,13 @@ h2 {
 
 hr {
 	clear: both;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 

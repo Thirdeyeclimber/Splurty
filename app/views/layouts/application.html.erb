@@ -4,7 +4,6 @@
     <title>Splurty</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -14,15 +13,13 @@
       <div class="col-3">
         <div class="circle">
           <br />
-          This Guy 
+          You can
           <br />
-          is Pretty
-          <br />
-         Dang Good!
+          Learn Anything!
         </div>
       </div>
       <div class="col-4 slogan">
-        Development in the making, established in 1984
+        Random Motivational Quote Generator
       </div>
       <div class="col-5 links">
         <%= link_to 'Add a Quote', '#' %>
@@ -31,9 +28,27 @@
     </header>
 
     <hr />
-
     <br class="clear" />
+    
+    <div class="container">
+      <%= yield %>
+    </div>
 
-    <%= yield %>
+
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class ="col-6">
+          Gimme another!
+          </div>
+          <div class="col-6 footer-blurb">
+            Built by <a href="[YOUR_PORTFOLIO_URL]">Michael</a> with Ruby on Rails<br />
+            with instruction from <a href="https://online.bootcampspot.com">Denver University Bootcamp</a><br /> and some <a href="https://www.youtube.com/watch?v=hHW1oY26kxQ">chill tunes</a> in the background
+          </div>
+        </div>
+      </div>
+    </div>
+
+
   </body>
 </html>

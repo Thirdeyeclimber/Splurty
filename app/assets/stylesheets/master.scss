@@ -12,7 +12,7 @@
 	font-style: italic;
 	position: relative;
 	border-radius: 100%;
-	background: #f84342;
+	background: #014B8C;
 	border: 1px solid #f7f7f7;
 	width: 80px;
 	height: 80px;
@@ -81,4 +81,24 @@ hr {
   padding-right: 15px;
 }
 
+.next-quote {
+  font-family: 'quicksandregular', bold;
+	color: black;
+	font-size: 25px;
+	border: solid;
+	border-width: 2px;
+	border-radius: 5%;
+	text-decoration: none;
+	padding-right: 5px;
+	padding-left: 5px;
+	background: grey;
+}
 
+.footer-blurb {
+	
+	font-family: 'Indie Flower', cursive;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 16px;
+	text-align: right;
+}

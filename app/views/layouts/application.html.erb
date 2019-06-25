@@ -11,18 +11,20 @@
   <body>
     <header class="row">
       <div class="col-3">
-        <div class="circle">
-          <br />
-          You can
-          <br />
-          Learn Anything!
-        </div>
+        <%= link_to root_path do %>
+          <div class="circle">
+            <br />
+            You can
+            <br />
+            Learn Anything!
+          </div>
+        <% end %>
       </div>
       <div class="col-4 slogan">
-        Random Motivational Quote Generator
+        Random Quote Generator
       </div>
       <div class="col-5 links">
-        <%= link_to 'Add a Quote', '#' %>
+        <%= link_to 'Add Quote', new_quote_path %>
         <%= link_to 'About', '#' %>
       </div>
     </header>
@@ -42,8 +44,8 @@
           <%= link_to "Next!", "#", class: 'next-quote' %>
           </div>
           <div class="col-6 footer-blurb">
-            Built by <a href="https://twitter.com/Thirdeyeclimber">Michael</a> using Ruby on Rails<br />
-            with instruction from <a href="https://online.bootcampspot.com">Denver University</a>
+            Built by <a href="https://twitter.com/Thirdeyeclimber">Michael</a><br />
+            with instruction from <a href="https://online.bootcampspot.com">Trilogy</a>
           </div>
         </div>
       </div>

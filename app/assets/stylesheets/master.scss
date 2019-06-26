@@ -39,14 +39,14 @@ h1 {
 h2 {
 	font-family: 'Indie Flower', cursive;
 	font-style: italic;
-	text-align: right;
+	text-align: left;
 }
 
 .slogan {
 	padding-top: 26px;
 	font-family: 'Indie Flower', cursive;
 	font-style: italic;
-	font-size: 20px;
+	font-size: 26px;
 }
 
 .links {
@@ -115,8 +115,11 @@ hr {
 	border-radius: 10px;
 }
 
-/* Doesn't work, looks good as is.
+.modal {
+	font-family: 'quicksandregular';
+}
 
-.about {
-	font-family: 'Indie Flower', cursive;
-} */
+::selection {
+	background-color: lightgrey;
+}
+

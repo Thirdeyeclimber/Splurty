@@ -1,3 +1,3 @@
 # README
 
-Don't read me
+Here is the readme file: Blah blah blah
